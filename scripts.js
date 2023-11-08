@@ -18,7 +18,7 @@ function login() {
         if (response.ok) {
             window.location.href = 'success.html'; // Redirect to success page
         } else {
-            window.location.href = 'login.html'; // Redirect back to login page
+            window.location.href = 'index.html'; // Redirect back to login page
         }
     })
     .catch(error => {
