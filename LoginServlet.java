@@ -6,9 +6,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.sql.*;
 
 public class LoginServlet extends HttpServlet {
-    // Update these details with your actual database connection parameters
-    static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver"; // For example: ""
-    static final String DB_URL = "jdbc:mysql://localhost:3306/demo"; // For example: "jdbc:mysql://localhost:3306/your_db_name";
+    
+    static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver"; 
+    static final String DB_URL = "jdbc:mysql://localhost:3306/demo";  
     static final String USER = "demo";
     static final String PASS = "demo";
 
